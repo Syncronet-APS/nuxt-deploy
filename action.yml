@@ -1,6 +1,6 @@
-name: 'ZomeTV Laravel Deploy'
+name: 'ZomeTV NuXT Deploy'
 
-description: 'Deploy Laravel Application to Server via SSH by RSync'
+description: 'Deploy NuXT Application to Server via SSH by RSync'
 author: 'Syncronet ApS'
 branding:
     icon: 'send'

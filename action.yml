@@ -1,4 +1,4 @@
-name: 'ZomeTV NuXT Deploy'
+name: 'ZomeTV NuXT JS Deploy'
 
 description: 'Deploy NuXT Application to Server via SSH by RSync'
 author: 'Syncronet ApS'

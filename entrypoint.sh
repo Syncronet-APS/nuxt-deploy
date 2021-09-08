@@ -39,7 +39,7 @@ if [ $? -eq 0 ]
 then
 	echo $'\n' "------ SYNC SUCCESSFUL! -----------------------" $'\n'
 	
-	ssh -i /root/.ssh/id_rsa -t $SSH_USER@$SSH_HOST "sudo systemctl restart webapp"
+	ssh -i /root/.ssh/id_rsa $SSH_USER@$SSH_HOST "sudo systemctl restart webapp"
 
 	echo $'\n' "------ CONGRATS! DEPLOY SUCCESSFUL!!! ---------" $'\n'
 	exit 0

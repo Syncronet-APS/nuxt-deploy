@@ -39,6 +39,7 @@ if [ $? -eq 0 ]
 then
 	echo $'\n' "------ SYNC SUCCESSFUL! -----------------------" $'\n'
 	
+	echo -e ssh -i /root/.ssh/id_rsa $SSH_USER@$SSH_HOST -t "bash $PATH_SOURCE/deploy.sh"
 	ssh -i /root/.ssh/id_rsa $SSH_USER@$SSH_HOST -t "bash $PATH_SOURCE/deploy.sh"
 	
 	echo $'\n' "------ CONGRATS! DEPLOY SUCCESSFUL!!! ---------" $'\n'
